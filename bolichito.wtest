@@ -1,0 +1,15 @@
+import bolichito.*
+import objetos.*
+import personas.*
+
+test "el rojo es un color fuerte" {
+    assert.that(rojo.fuerte())
+}
+
+test "A rosa le gusta la pelota"{
+    assert.that(rosa.leGusta(pelota))
+}
+
+test "A rosa no le gusta la biblioteca" {
+    assert.notThat(rosa.leGusta(biblioteca))
+}
